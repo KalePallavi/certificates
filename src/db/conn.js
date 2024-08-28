@@ -1,7 +1,6 @@
 const  mongoose = require("mongoose");
 
- var  uri = process.env.oneDay || mongodb+srv://DineDeal:OqZOaoxP756hm74R@cluster.xvuzkd5.mongodb.net/certificate
-
+var  uri = process.env.oneDay || "mongodb+srv://DineDeal:OqZOaoxP756hm74R@cluster.xvuzkd5.mongodb.net/certificate"
 
 const  options = {
 useNewUrlParser:  true,
